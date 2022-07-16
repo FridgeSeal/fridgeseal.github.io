@@ -1,0 +1,57 @@
+baseURL = 'https://fridgeseal.github.io'
+languageCode = 'en-us'
+title = 'Incomplete Thoughts'
+theme = 'terminal'
+author = 'Tom Watson'
+
+paginate = 10
+
+[params]
+
+    contentTypeName = "posts"
+    themeColor = "green"
+    showMenuItems = 4
+    fullWidthTheme = false
+    centerTheme = true
+    autoCover = true
+    showLastUpdated = true
+    updatedDatePrefix = "Updated"
+    readingTime = true
+
+[languages]
+  [languages.en]
+    title = "Incomplete Thoughts"
+    subtitle = "What it says on the tin"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Incomplete Thoughts"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
