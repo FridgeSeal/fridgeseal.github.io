@@ -1,6 +1,6 @@
 baseURL = 'https://fridgeseal.github.io'
 languageCode = 'en-us'
-title = 'Incomplete Thoughts'
+title = 'The Void Stares Back'
 theme = 'terminal'
 author = 'Tom Watson'
 
@@ -23,7 +23,7 @@ enableGitInfo
 
 [languages]
   [languages.en]
-    title = "THe Void Stares Back"
+    title = "The Void Stares Back"
     subtitle = "What it says on the tin"
     keywords = ""
     copyright = ""
@@ -32,7 +32,7 @@ enableGitInfo
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "THe Void Stares Back"
+      logoText = "The Void Stares Back"
       logoHomeLink = "/"
 
     [languages.en.menu]
