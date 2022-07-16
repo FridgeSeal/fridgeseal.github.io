@@ -7,7 +7,7 @@ author = 'Tom Watson'
 paginate = 10
 
 enableEmoji = true
-enableGitInfo 
+enableGitInfo = true
 
 [params]
 
