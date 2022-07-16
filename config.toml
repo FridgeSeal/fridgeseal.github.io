@@ -20,7 +20,7 @@ paginate = 10
 
 [languages]
   [languages.en]
-    title = "Incomplete Thoughts"
+    title = "THe Void Stares Back"
     subtitle = "What it says on the tin"
     keywords = ""
     copyright = ""
@@ -29,7 +29,7 @@ paginate = 10
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Incomplete Thoughts"
+      logoText = "THe Void Stares Back"
       logoHomeLink = "/"
 
     [languages.en.menu]
