@@ -1,60 +1,33 @@
-baseURL = 'https://fridgeseal.github.io'
-languageCode = 'en-us'
-title = 'The Void Stares Back'
-theme = 'terminal'
-author = 'Tom Watson'
+# The URL the site will be built for
+base_url = "https://fridgeseal.github.io"
 
-paginate = 10
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-enableEmoji = true
-enableGitInfo = true
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+theme = "anemone"
 
-[params]
+taxonomies = [{ name = "tags", feed = true }]
 
-    contentTypeName = "posts"
-    themeColor = "green"
-    showMenuItems = 4
-    fullWidthTheme = false
-    centerTheme = true
-    autoCover = true
-    showLastUpdated = true
-    updatedDatePrefix = "Updated"
-    readingTime = true
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+render_emoji = true
+external_links_target_blank = true
+smart_punctuation = true
+highlight_theme = "gruvbox-dark"
 
-[languages]
-  [languages.en]
-    title = "The Void Stares Back"
-    subtitle = "What it says on the tin"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "The Void Stares Back"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
-
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = true
-  [privacy.instagram]
-    disable = true
-  [privacy.twitter]
-    disable = true
-  [privacy.vimeo]
-    disable = true
-  [privacy.youtube]
-    disable = true
+[extra]
+# Put all your custom variables here
+list_pages = true
+toc = true
+twitter_card = false
+default_theme = "light"
+header_nav = [
+    { url = "/", name_en = "/home/" },
+    { url = "/blog", name_en = "/blog/" },
+    { url = "/half_formed_ideas", name_en = "/infohazards/" },
+]
