@@ -1,0 +1,15 @@
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: FacebookExternalHit
+User-agent: Twitterbot
+User-agent: BingPreview
+User-agent: Bingbot
+User-agent: AdsBot-Google
+User-agent: Mediapartners-Google
+Disallow: /
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://fridgeseal.github.io/sitemap.xml
