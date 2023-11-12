@@ -8,7 +8,7 @@ minify_html = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 theme = "anemone"
-
+insert_anchor_links = true
 taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
@@ -27,7 +27,7 @@ list_pages = true
 toc = true
 twitter_card = false
 default_theme = "light"
-favicon = "static/favicon.png"
+favicon = false
 header_nav = [
     { url = "/", name_en = "/home/" },
     { url = "/blog", name_en = "/blog/" },
